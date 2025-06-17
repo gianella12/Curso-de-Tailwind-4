@@ -1,0 +1,16 @@
+{
+  "name": "Curso-de-Tailwind-4-desde0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.1",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.10"
+  }
+}
