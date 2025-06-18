@@ -5,15 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso de Taiwind</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./assests/output.css" />
 </head>
 
-<body class="max-w-xl mx-auto min-h-dvh bg-gradient-to-b from-black via-sky-950 to-gray-800">
+<body class="max-w-xl mx-auto
+  min-h-dvh
+  bg-gradient-to-b from-black via-sky-950 to-gray-800
+">
     <header class=" text-white">
         <img alt="foto mia" src="./assests/WhatsApp Image 2025-06-17 at 11.08.57.jpeg"
-            class="w-full h-96 object-cover  mask-radial-at-center mask-radial-from-50% mask-radial-to-90%">
+            class="h-[50vh] w-full object-cover mask-radial-at-center mask-radial-from-45% mask-radial-to-80% animate-pulse-fade-in">
 
-        <header class="flex flex-col justify-center items-center mb-8 -mt-4">
+        <section class="flex flex-col justify-center items-center mb-4 -mt-4">
             <span class="text-sky-400 text-xl font-mono px-3 py-1 border 
             rounded-full flex items-center shadow-sm bg-black/70 z-10">
                 @_.giianee._
@@ -24,49 +27,64 @@
                         clip-rule="evenodd" />
                 </svg>
             </span>
-            <h1 class="text-3xl font-extrabold mt-4 leading-tight">
+            <h1 class="text-3xl font-extrabold leading-tight mt-1 font-display">
                 Gianella C. Lastra
             </h1>
-        </header>
+        </section>
 
         <section class="flex gap-2 justify-center">
-            <a class="bg-white p-1 size-12 sm:size-14 flex items-center justify-center
-        rounded-full hover:scale-105 transition-transform" href="https://www.twitch.tv/gianee_2004" target="_blank"
+            <a class="bg-white social-botton" href="https://www.twitch.tv/gianee_2004" target="_blank"
                 aria-label="twitch" title="Ir a Twitch">
                 <svg width="28" height="28">
                     <use xlink:href="./assests/sprite.svg#twitch" />
                 </svg>
             </a>
 
-            <a class="bg-gradient-to-tr from-[#f09433] via-[#dc2743] to-[#bc1888]
-        p-1 size-12 sm:size-14 flex items-center justify-center
-        rounded-full hover:scale-105 transition-transform" href="https://www.instagram.com/_.giianee._/"
+            <a class="bg-gradient-to-tr from-[#f09433] via-[#dc2743] to-[#bc1888] social-botton"
+             href="https://www.instagram.com/_.giianee._/"
                 target="_blank" aria-label="instagram" title="Ir a Instagram">
                 <svg width="28" height="28">
                     <use xlink:href="./assests/sprite.svg#instagram" />
                 </svg>
             </a>
 
-            <a class="bg-zinc-800 p-1 size-12 sm:size-14 flex items-center justify-center
-        rounded-full hover:scale-105 transition-transform" href="https://www.Github.com/gianella12" target="_blank"
+            <a class="bg-zinc-800 social-botton" href="https://www.Github.com/gianella12" target="_blank"
                 aria-label="twitch" title="Ir a Github">
                 <svg width="28" height="28">
                     <use xlink:href="./assests/sprite.svg#github" />
                 </svg>
             </a>
 
-            <a class="bg-white p-1 size-12 sm:size-14 flex items-center justify-center
-        rounded-full hover:scale-105 transition-transform" href="https://linkedin.com/in/gianella-carla-lastra/"
+            <a class="bg-white social-botton" href="https://linkedin.com/in/gianella-carla-lastra/"
                 target="_blank" aria-label="twitch" title="Ir a LinKedin">
                 <svg width="28" height="28">
                     <use xlink:href="./assests/sprite.svg#linkedin" />
                 </svg>
             </a>
         </section>
-        <p class="text-center mt-4 text-sm">
+        <p class="text-center mt-4 text-sm px-2 text-balance">
             Estudiante de Programacion, aprendiendo Tailwind con middu de forma 
             divertida😋
         </p>
+
+        <main class="pt-4 px-4 ">
+            <div class="grid grid-cols-3 grid-rows-2 gap-2 w-full">
+                <a href="https://cursoreact.dev" class="relative rounded-r-3xl overflow-hidden
+                bg-gradient-to-br from-cyan-950 via-cyan-700
+                 to-cyan-500
+                 border border-cyan-900
+                 flex flex-col items-start
+                 hover:scale-105 hover:contrast-125
+                 transition
+                 col-span-2 p-7">
+                    <span class="absolute bottom-2 left-0 font-bold text-2xl">React.js</span>
+                    <svg width="100" height="100">
+                        <use xlink:href="./assests/sprite.svg#react" />
+                    </svg>
+                    <span class="absolute top-2 left-2 text-xs border rounded-xl px-2 py-0.5">+14 clases</span>
+                </a>
+            </div>
+        </main>
     </header>
 
 </body>

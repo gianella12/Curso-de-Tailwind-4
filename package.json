@@ -1,13 +1,13 @@
 {
-  "name": "Curso-de-Tailwind-4-desde0",
+  "name": "curso-tailwind-desde0",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proyecto de práctica con Tailwind CSS desde cero",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:css": "tailwindcss -i ./input.css -o ./assests/output.css --watch"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["tailwind", "css", "proyecto", "curso"],
+  "author": "Gianella Lastra",
   "license": "ISC",
   "packageManager": "pnpm@10.12.1",
   "devDependencies": {
