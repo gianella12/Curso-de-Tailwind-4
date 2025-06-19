@@ -1,5 +1,5 @@
 @import "tailwindcss"; 
-
+@plugin "@midudev/tailwind-animations";
 @theme{
     /* colores */
     --color-primary: #f73;
